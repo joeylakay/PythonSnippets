@@ -5,11 +5,7 @@ import order
 
 # Problem: Orders need to be batched together in groups of 3
 
-
-
-###############################################################################
-def main():
-###############################################################################
+def challenge1():
 
     # temp dictionary to hold batch_uuid and number of instances
     batch_uuids = {}
@@ -27,6 +23,14 @@ def main():
     # loop through key / value pairs in batch_uuids and see what is up
     for k,v in batch_uuids.items():
         print str(k) + ': ' + str(v)
+
+
+###############################################################################
+def main():
+###############################################################################
+
+    challenge1()
+
 
 
 
