@@ -26,6 +26,18 @@ class Order():
                 'batch_uuid': batch_1_uuid
             }
         ]
-        if date = '2015-12-15':
-            print 'hi'
+        if date == '2015-12-15':
+            updated = [
+                {
+                    'id': 3,
+                    'description': 'Dope',
+                    'batch_uuid': batch_2_uuid
+                },
+                {
+                    'id': 50,
+                    'description': 'Hella',
+                    'batch_uuid': batch_2_uuid
+                }]
+            orders += updated
+
         return orders
