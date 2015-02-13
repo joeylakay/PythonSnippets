@@ -24,6 +24,11 @@ class Order():
                 'id': 18,
                 'description': 'Dude',
                 'batch_uuid': batch_1_uuid
+            },
+            {
+                'id': 56,
+                'description': 'Joey',
+                'batch_uuid': batch_2_uuid
             }
         ]
         if date == '2015-12-15':
@@ -41,3 +46,7 @@ class Order():
             orders += updated
 
         return orders
+        ###########################################################################
+        def createBatchID(self, batch_uuid):
+        ###########################################################################
+            # count the current batch_uuids to a dictionary
