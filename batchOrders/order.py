@@ -46,7 +46,3 @@ class Order():
             orders += updated
 
         return orders
-        ###########################################################################
-        def createBatchID(self, batch_uuid):
-        ###########################################################################
-            # count the current batch_uuids to a dictionary
